@@ -11,7 +11,7 @@ function Header() {
         toast.success("Logout Successfully")
     }
   return (
-    <div className="flex justify-center items-center gap-7 p-8 bg-purple-800">
+    <div className="flex justify-center items-center gap-7 p-8 bg-black shadow-lg">
          <Link to="/profile" className="text-white text-xl md:text-2xl lg:text-2xl font-medium">Profile</Link>
          {
             token? 

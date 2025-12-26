@@ -40,7 +40,7 @@ function Form() {
   return (
     <>
     <div className="flex  justify-center  py-8">
-    <form onSubmit={handleSubmit(onSubmit)}className="flex flex-col gap-3  border-purple-700 border-2 rounded-lg w-[95%] max-w-130 bg-white p-4 py-6 mt-8 ">
+    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3  border-purple-700 border-2 rounded-lg w-[95%] max-w-130 bg-white p-4 py-6 mt-8 ">
         <div className="flex justify-center items-center p-3 gap-1">
         <h1 className="text-purple-800 text-3xl font-bold ">Login</h1>
         <FaWpforms className="text-2xl text-purple-800"/>
