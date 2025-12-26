@@ -30,14 +30,14 @@ function Profile() {
  
     <>
   <h1 className="text-center text-3xl text-purple-900 p-5 font-medium ">Profile Page</h1>
-        <div className="flex flex-col w-[80vw] mx-auto md:w-full md:items-center lg:w-full lg:items-center mt-8">
+        <div className="flex flex-col w-[80vw] mx-auto md:w-full md:items-center lg:w-full lg:items-center mt-8 ">
    <ElectricBorder
       color="#59168b"
   speed={1}
   chaos={0.5}
   thickness={3}
   style={{ borderRadius: 16 }}>
-        <div className=" flex justify-center items-center flex-col gap-3 rounded-xl p-8">
+        <div className="flex justify-center items-center flex-col gap-3 rounded-xl p-8 ">
             <div className="text-2xl font-semibold flex flex-col items-center gap-2 md:flex-row lg:flex-row">
                  <span className=" text-purple-950">Name:</span> <span className="text-purple-700">{userdata?.name}</span> 
             </div>

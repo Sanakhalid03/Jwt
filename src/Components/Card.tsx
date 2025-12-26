@@ -49,9 +49,7 @@ export function CardDemo() {
  }
   return (
     
-    <div className=' flex justify-center mt-15'>
-     
-      
+    <div className='flex justify-center mt-15 card-wrapper'>
        <Card className="w-full max-w-sm">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
@@ -70,12 +68,6 @@ export function CardDemo() {
             <div className="grid gap-2">
               <div className="flex items-center">
                 <Label htmlFor='password'>Password</Label>
-                <a
-                  href="#"
-                  className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
-                >
-                  Forgot your password?
-                </a>
               </div>
               <div className='flex gap-2 items-center cursor-pointer'>
                  <Input type={show? "type" :"password"} id="password" placeholder="Password..." className="text-md font-medium outline-0 w-full" {...register("Password")}/>
@@ -89,9 +81,7 @@ export function CardDemo() {
             <Button type="submit" className="w-full cursor-pointer">
           Login
         </Button>
-        <Button variant="outline" className="w-full cursor-pointer">
-          Login with Google
-        </Button>
+  
           </div>
         </form>
       </CardContent>

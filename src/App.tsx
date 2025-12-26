@@ -13,9 +13,13 @@ function App() {
   return (
     <>
 
-     
-        <SplashCursor/>
+
+       
       <Toaster />
+      <div className="splash-cursor">
+          <SplashCursor />
+      </div>
+      
       <Header />
       <Routes>
         <Route path="/" element={<CardDemo />} />
